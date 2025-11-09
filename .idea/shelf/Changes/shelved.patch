@@ -1,0 +1,33 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1762717922589)
++++ b/.gitignore	(date 1762717922589)
+@@ -0,0 +1,23 @@
++
++__pycache__/
++*.pyc
++*.pyo
++*.pyd
++
++
++venv/
++env/
++
++
++.vscode/
++.idea/
++*.swp
++
++
++.DS_Store
++Thumbs.db
++
++
++artifacts/temp_*
++
++
