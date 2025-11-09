@@ -41,7 +41,7 @@ cd book_scraper_project
 mkdir artifacts tests notebooks
 ```
 
-## 2. Установка зависимостей
+## 2. Установка зависимостей.
 
 ### Установка из файла requirements.txt:
 

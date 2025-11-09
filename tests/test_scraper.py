@@ -131,7 +131,7 @@ def test_scrape_books_returns_list_of_books():
 
         for book in result:
             assert isinstance(book, dict), "Каждая книга должна быть словарем"
-            assert 'title' in book, "Книга должна содержать название"
+            assert 'title' in book, "Книга должна содержать название."
 
 
 if __name__ == "__main__":
